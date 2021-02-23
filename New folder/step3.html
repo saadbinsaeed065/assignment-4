@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/suscribe.php" method="POST"></form>
+    <center> <table>
+        <tr> 
+            <td bgcolor="green">Step 1: Account</td>
+            <td bgcolor=" green">Step 2: Personal details</td>
+            <td bgcolor="blue">Step 3: Your review</td>
+        </tr> 
+    </table>
+</center>
+<center>
+    <fieldset style="width: 30%; margin: 5px;;;">
+        <legend> 
+             Your Review
+         </legend> 
+         <p>
+            How did you hear about us?   <select name="WAY" id="" aria-placeholder="Select your option">
+                 <option value="SOCIAL MEDIA"> SOCIAL MEDIA</option>
+                 <option value="NEWSPAPER">NEWSPAPER</option>
+                 <option value="WORDS OF MOUTH">WORDS OF MOUTH</option>
+             </select>
+         </p>
+         <p>
+             Would you like to visit again? <br>
+             <input type="radio" name="way" value="yes">
+             <input type="radio" name="way" value="No">
+             <input type="radio" name="way" value="Maybe">
+         </p>
+      <br>
+      <br>
+      <p>
+          Comments:
+      </p>
+      <textarea name="Comments" id="" cols="30" rows="10" placeholder="Give your precious thoughts!!!!!"></textarea>
+      <p>Documents:
+          <input type="file" name="document " value="choose file">
+      </p>
+     
+      <input type="checkbox" value="Sign me up for email details" checked="checked"> 
+        Sign me up for email details
+      <br>
+      <br>
+             <a href="step2.html"> <img src="Images/back.png"  alt="" width="100"></a>   
+             <input type="image" src="Images/submit.png" width="100">
+     </fieldset>
+</center>
+
+ 
+</form>
+</body>
+</html>
